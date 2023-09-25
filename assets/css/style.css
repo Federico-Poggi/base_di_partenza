@@ -173,8 +173,45 @@ hr {display: none;} /* rimuove l'elemento */
     }
 }
 
-@media screen and (min-width: 576px) and (max-width: 767px){
+@media screen and (min-width: 500px) and (max-width: 767px){
+
+    header li{
+        display: inline-block;
+        padding-left: 2vw;
+    } 
+
+    article{
+       font-size: 1.3em ;
+    }
+
+    article h1{
+        font-size: 3em;
+    }
+
+    table{
+        width: 450px;
+    }
+
+    iframe{
+        width: 100%;
+        height: 150px;
+    }
     
+    section:first-of-type{
+        height: 200px;
+    }
+
+    section:first-of-type h2{
+        background-color: grey;
+       }
+
+       footer p{
+        font-size: 1.5em;
+       }
+
+    address{
+        font-size: 1.9em;
+    }
 }
 
 /* HEADER */
